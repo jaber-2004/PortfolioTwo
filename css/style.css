@@ -175,6 +175,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 500;
     color: #575757;
     line-height: 160%;
+    padding: 0 20px;
 }
 .servicContantTwo{
     margin-top: 40px;
@@ -198,18 +199,16 @@ h1,h2,h3,h4,h5,h6,p{
     color: #707070;
 }
 .aboutModelimg{
-    padding-top: 70px;
-}
-.aboutModelimg img{
-    padding-right: 20px;
+    padding-top: 60px;
 }
 .aboutRightText p{
-    margin-top: 150px;
+    margin-top: 170px;
     font-size: 20px;
     font-weight: 500;
     color: #959595;
+    width: 631px;
     line-height: 190%;
-    margin-left: -10px;
+    text-align: justify;
 }
 .aboutBtn{
     margin-top: 40px;
@@ -226,7 +225,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 20px;
 }
 .aboutParcentText p{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: #959595;
 }
@@ -373,7 +372,7 @@ textarea.form-control.myinput.myinputTwo::placeholder{
 }
 .footerUlLi ul{
     display: flex;
-    margin-left: 85px;
+    margin-left: 155px;
     margin-top: 65px;
 }
 .footerUlLi ul li{
@@ -407,7 +406,7 @@ textarea.form-control.myinput.myinputTwo::placeholder{
 .footerEmlPhn{
     display: flex;
     margin-top: 55px;
-    margin-left: 200px;
+    margin-left: 275px;
 }
 .footerEml h6{
     margin-right: 30px;
@@ -433,7 +432,7 @@ textarea.form-control.myinput.myinputTwo::placeholder{
     width: 550px;
     background-color: #707070;
     bottom: 35px;
-    left: 190px;
+    left: 265px;
     content: "";
 }
 /* Footerpart end  */
