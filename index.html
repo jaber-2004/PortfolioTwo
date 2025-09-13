@@ -7,7 +7,10 @@
     <!-- Css link start  -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <!-- Css link end  -->
      <!-- Google fonts start  -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +28,10 @@
         </picture>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa-solid fa-bars-staggered"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link " href="#">Home</a>
         </li>
@@ -79,19 +82,19 @@
                         <div class="row">
                           <div class="col-lg-4">
                               <div class="bannarCounter">
-                            <h3>5+</h3>
+                            <h3> <span class="counter">5</span>+</h3>
                             <h4>Experiences</h4>
                           </div>
                           </div>
                             <div class="col-lg-4">
                               <div class="bannarCounter">
-                            <h3>20+</h3>
+                            <h3><span class="counter">20</span>+</h3>
                             <h4>Project done</h4>
                           </div>
                           </div>
                             <div class="col-lg-4">
                               <div class="bannarCounter bRN">
-                            <h3>80+</h3>
+                            <h3><span class="counter">80</span>+</h3>
                             <h4>Happy Clients</h4>
                           </div>
                           </div>
@@ -259,7 +262,7 @@
                 </picture>
               </div>
               <div class="aboutParcentText">
-                <h4>100%</h4>
+                <h4> <span class="counter">100</span>%</h4>
                 <p>Figma</p>
               </div>
             </div>
@@ -272,7 +275,7 @@
                 </picture>
               </div>
               <div class="aboutParcentText">
-                <h4>100%</h4>
+                <h4> <span class="counter">100</span>%</h4>
                 <p>Adobe XD</p>
               </div>
             </div>
@@ -285,7 +288,7 @@
                 </picture>
               </div>
               <div class="aboutParcentText">
-                <h4>85%</h4>
+                <h4> <span class="counter">85</span>%</h4>
                 <p>Adobe Photoshop</p>
               </div>
             </div>
@@ -298,7 +301,7 @@
                 </picture>
               </div>
               <div class="aboutParcentText">
-                <h4>60%</h4>
+                <h4> <span class="counter">60</span>%</h4>
                 <p>Adobe Illustrator</p>
               </div>
             </div>
@@ -311,7 +314,7 @@
                 </picture>
               </div>
               <div class="aboutParcentText">
-                <h4>70%</h4>
+                <h4> <span class="counter">70</span>%</h4>
                 <p>Adobe Premiere</p>
               </div>
             </div>
@@ -343,7 +346,10 @@
            <div class="portfolioImgText">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid">
+              
+                <a href="images/PortfolioImg1.png" data-lightbox="roadtrip">
+  <img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid">
+                </a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -356,7 +362,10 @@
            <div class="portfolioImgText">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid">
+               
+                <a href="images/PortfolioImg2.png" data-lightbox="roadtrip">
+ <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid">
+                </a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -369,7 +378,10 @@
            <div class="portfolioImgText">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid">
+               
+                <a href="images/PortfolioImg3.png" data-lightbox="roadtrip">
+ <img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid">
+                </a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -382,7 +394,7 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid">
+                <a class="my-image-links" data-gall="gallery01" href="images/PortfolioImg2.png"> <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid"></a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -395,7 +407,9 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid">
+                
+              
+                <a class="my-image-links" data-gall="gallery01" href="images/PortfolioImg1.png">  <img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid"></a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -408,7 +422,8 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid">
+               
+                <a class="my-image-links" data-gall="gallery01" href="images/PortfolioImg3.png"><img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid"></a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -421,7 +436,10 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid">
+                
+                <a href="images/PortfolioImg1.png" data-lightbox="roadtrip">
+<img src="images/PortfolioImg1.png" alt="PortfolioImg1.png" class="w-100% img-fluid">
+                </a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -434,10 +452,16 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid">
+                
+                <a href="images/PortfolioImg3.png" data-lightbox="roadtrip">
+                  <img src="images/PortfolioImg3.png" alt="PortfolioImg3.png" class="w-100% img-fluid">
+                </a>
               </picture>
             </div>
             <div class="portfolioText">
+
+
+
               <h4>Name Project</h4>
               <h4>Categories</h4>
             </div>
@@ -447,7 +471,8 @@
            <div class="portfolioImgTextTow">
              <div class="portfolioImg">
               <picture>
-                <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid">
+               
+                <a href="images/PortfolioImg2.png" data-lightbox="roadtrip"> <img src="images/PortfolioImg2.png" alt="PortfolioImg2.png" class="w-100% img-fluid"></a>
               </picture>
             </div>
             <div class="portfolioText">
@@ -469,28 +494,6 @@
             <div class="contactCenterText text-center">
               <h3>Contact Me</h3>
               <p>Cultivating Connections: Reach Out and Connect with Me</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-10 m-auto">
-            <div class="contactDetalis">
-              <form>
-  <div class="mb-3 myContact">
-    <input type="text" class="form-control myinput" placeholder="Name">
-    <input type="email" class="form-control myinput" placeholder="Email">
-    <input type="text" class="form-control myinput myinputTwo" placeholder="Phone Number">
-    <select  class="form-control myinput myinputTwo" >
-      <option>Service of Interest</option>
-      <option>Service of Interest</option>
-      <option>Service of Interest</option>
-      <option>Service of Interest</option>
-    </select>
-     <input type="text" class="form-control myinput myinputTwo" placeholder="Timeline">
-  </div>
-  <textarea class="form-control myinput myinputTwo" placeholder="Project Details..." rows="5"></textarea>
-  <button type="submit" class="btn btn-primary sumBtn mt-4">Send</button>
-</form>
             </div>
           </div>
         </div>
@@ -550,7 +553,12 @@
 
 
 <!-- Js link start  -->
+ <script src="js/jquery-1.12.4.min.js"></script>
  <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/waypoints.min.js"></script>
+ <script src="js/jquery.counterup.min.js"></script>
+ <script src="js/lightbox.min.js"></script>
+ <script src="js/venobox.min.js"></script>
  <script src="js/script.js"></script>
 <!-- Js link end  -->
 </body>
